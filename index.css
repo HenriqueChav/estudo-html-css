@@ -8,35 +8,51 @@
 
 .titulo-centralizado {
     text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 5px;
 }
 
 .principal {
-    background-color: #CCCCCC;
-    padding: 30px;
+    width: 940px;
+    margin: 0 auto;
+    padding: 15px 0;
+    line-height: 30px;
 }
 
 p {
+    font-size: 18px;
     text-align: center;
 }
 
 #missao {
     font-size: 20px;
+    font-weight: bold;
 }
 
 em strong {
-    color: #FF0000;
+    color: brown;
 }
 
 .beneficios {
-    background-color: #FFFFFF;
+    width: 940px;
+    margin: 0 auto;
     padding: 20px;
+    font-size: 22px;
 }
 
 .beneficios-lista {
+    text-align: center;
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    width: 49%;
+    line-height: 50px;
+    text-decoration: underline;
+    color: brown;
+}
+
+.beneficios-lista:hover {
+    color: red;
 }
 
 .itens {
@@ -44,5 +60,5 @@ em strong {
 }
 
 .imagemBeneficios {
-    width: 50%;
+    width: 49%;
 }
