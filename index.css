@@ -32,7 +32,7 @@ em strong {
     padding: 20px;
 }
 
-ul {
+.beneficios-lista {
     display: inline-block;
     vertical-align: top;
     width: 20%;
